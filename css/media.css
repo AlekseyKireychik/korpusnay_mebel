@@ -1,0 +1,339 @@
+@media screen and (max-width:1024px){
+    .center__experience{
+        right: 20px;
+    }
+    .information__work{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 992px){
+    .top__contacts{
+        text-align: center;
+        margin: 20px auto;
+    }
+    .wrapper__information{
+        flex-wrap: wrap;
+    }
+    .information__title p{
+        margin-right: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .work__type{
+                flex-direction: row;
+
+        margin-left: 50px;
+
+        -webkit-flex-direction: row;
+           -moz-flex-direction: row;
+            -ms-flex-direction: row;
+             -o-flex-direction: row;
+    }
+    .work__methods{
+                flex-direction: row;
+
+        margin-left: 50px;
+
+        -webkit-flex-direction: row;
+           -moz-flex-direction: row;
+            -ms-flex-direction: row;
+             -o-flex-direction: row;
+    }
+    .work__geography{
+                flex-direction: row;
+
+        margin-left: 50px;
+
+        -webkit-flex-direction: row;
+           -moz-flex-direction: row;
+            -ms-flex-direction: row;
+             -o-flex-direction: row;
+    }
+    .work__type p,
+    .work__methods p,
+    .work__geography p{
+        margin-right: 0;
+    }
+    .stages__title{
+        text-align: center;
+    }
+    .stages__slider{
+        height: 680px;
+    }
+    .item__img {
+        margin-bottom: 0;
+    }
+    .item__text{
+        top:-35px;
+    }
+    .arrows{
+        bottom:45px;
+    }
+    .footer__logo{
+       width: 100%;
+
+   }
+    .footer__social{
+        max-width: 250px;
+
+        order: 1;
+    }
+    .footer__contact{
+        max-width: 250px;
+    }
+    .contact__title{
+        margin-left: 0px;
+    }
+    .contact__number{
+        margin-left: 10px;
+    }
+    .contact__name{
+        margin-left: -15px;
+    }
+    .contact__unp{
+        margin-left: -15px;
+    }
+}
+@media screen and (max-width: 768px){
+    .top__logo{
+        margin-top: 20px;
+
+        order: 1;
+    }
+    .top__contacts{
+        margin-top: 0;
+    }
+    .top__contacts p{
+        padding-top: 0;
+    }
+    .center__experience{
+        right: 20px;
+    }
+    .center__title h1{
+        font-size: 2.625rem;
+        line-height: 3.25rem;
+    }
+
+
+    .stages__title{
+        text-align: center;
+    }
+    .stages__slider{
+        height: 790px;
+    }
+    .item__text{
+        top:-20px;
+    }
+    .item__img{
+        margin-right: 40px;
+    }
+    .arrows{
+        bottom: 40px;
+        left: 35px;
+    }
+
+
+    .footer__wrap{
+    }
+    .footer__social{
+        margin-top: -160px;
+
+        order: 1;
+    }
+    .footer__contact{
+    }
+    .contact__title{
+        margin-left: 15px;
+    }
+    .contact__number{
+        margin-left: 30px;
+    }
+    p.contact__name,
+    p.contact__unp{
+        margin-left: 0;
+    }
+    .btn__top{
+        right:10px;
+        bottom: 10px;
+    }
+    .formreviews__left{
+        width: 100%;
+    }
+    .formreviews__right{
+        width: 100%;
+        margin-left: 0px;
+
+    }
+    .footer__logo{
+        left: 0;
+    }
+    .footer__social{
+        max-width: 250px;
+        margin: 40px auto;
+
+    }
+    .footer__copywrite, .footer__social p, .footer__social ul{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:576px){
+    .header__top{
+        flex-direction: column;
+    }
+    .top__logo{
+        margin-top: -50px;
+
+        order: 0;
+        justify-content: center;
+    }
+    .top__title{
+        margin-top: 150px;
+
+        order: 1;
+    }
+    .top__title h4{
+        text-align: center;
+    }
+    .top__contacts{
+        margin-top: 20px;
+
+        text-align: center;
+
+        order: 2;
+    }
+    .top__contacts a{
+        margin-bottom: 20px;
+    }
+    .tel{
+        display: block;
+
+    }
+    .center__title h1{
+        font-size: 2.25rem;
+        line-height: 42px;
+
+        margin-top: 70px;
+
+        text-align: center;
+    }
+    .center__experience{
+        margin: 40px auto;
+
+        justify-content: center;
+    }
+    .information{
+        padding-bottom: 50px;
+    }
+    .information__title h2{
+        font-size: 1.625rem;
+        line-height: 2rem;
+
+        text-align: center;
+    }
+    .information__work h3{
+        font-size: 1.375rem;
+    }
+    .stages__slider{
+        height: 550px;
+    }
+    .stages__slider img{
+        display: none;
+    }
+    .stages__slider h3{
+        font-size: 1.625rem;
+    }
+    .item__text{
+        top:30px;
+    }
+    .arrows{
+        bottom: 50px;
+    }
+
+
+    .jsForm{
+        left: -60px;
+    }
+    .btn__top{
+        right:5px;
+        bottom: 5px;
+
+        padding: 1px 5px;
+    }
+}
+@media screen and (max-width:535px){
+    .stages__slider{
+        height: 690px;
+        }
+    .arrows{
+        bottom: 50px;
+    }
+    .footer__logo{
+        margin: 20px auto;
+    }
+    .footer__contact{
+        margin: 10px auto;
+    }
+    .footer__social{
+        margin: 10px auto;
+    }
+     .jsForm{
+        left: -30px;
+    }
+}
+@media screen and (max-width:360px){
+
+}
+@media screen and (max-width: 376px){
+    .center__experience{
+        right: 0;
+    }
+    .photogallery__title h2,
+    .stages__title h2,
+    .reviews__title h2{
+        font-size: 1.425rem;
+        line-height: 2rem;
+
+        text-align: center;
+    }
+    p.logo__name{
+        font-size: 1.563rem;
+        line-height: 2rem;
+    }
+    p.logo__title{
+        font-size: 0.75rem;
+
+        max-width: 150px;
+    }
+    .stages__slider{
+        height: 840px;
+        }
+    .arrows{
+        bottom: 25px;
+    }
+    .btn__top{
+        display: none;
+    }
+     .jsForm{
+        left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 321px){
+    .center__experience{
+        width: 310px;
+        height: 310px;
+    }
+    .reviews__sliders,
+    .header__center{
+        overflow-x: hidden;
+    }
+    .stages__slider{
+        height: 1000px;
+        }
+    .arrows{
+        bottom: 30px;
+    }
+}
+
